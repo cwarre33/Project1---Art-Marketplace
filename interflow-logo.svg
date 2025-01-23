@@ -1,0 +1,20 @@
+<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circles with opacity -->
+  <circle cx="160" cy="100" r="60" fill="#B4D7D2" opacity="0.6"/> <!-- Seafoam green -->
+  <circle cx="240" cy="100" r="60" fill="#FFD5C6" opacity="0.6"/> <!-- Sunrise peach -->
+  <circle cx="200" cy="100" r="60" fill="#E6E6FA" opacity="0.6"/> <!-- Lavender gray -->
+  
+  <!-- Connecting lines -->
+  <path d="M 140,100 Q 200,60 260,100" fill="none" stroke="#2F4F4F" stroke-width="2" opacity="0.8"/>
+  <path d="M 140,100 Q 200,140 260,100" fill="none" stroke="#2F4F4F" stroke-width="2" opacity="0.8"/>
+  
+  <!-- Company name -->
+  <text x="200" y="180" font-family="Poppins, sans-serif" font-size="32" text-anchor="middle" fill="#2F4F4F">
+    interflow
+  </text>
+  
+  <!-- Tagline -->
+  <text x="200" y="195" font-family="Poppins, sans-serif" font-size="12" text-anchor="middle" fill="#2F4F4F" font-style="italic">
+    where creativity connects
+  </text>
+</svg>

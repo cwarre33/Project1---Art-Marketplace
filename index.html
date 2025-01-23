@@ -4,129 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interflow - Where Creativity Connects</title>
-    <style>
-        /* Reset and base styles */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-
-        /* Header styles */
-        header {
-            background: white;
-            padding: 1rem;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-
-        .header-top {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 1rem;
-        }
-
-        .logo {
-            width: 150px;
-            height: auto;
-        }
-
-        .search-bar {
-            flex-grow: 1;
-            margin: 0 2rem;
-        }
-
-        .search-bar input {
-            width: 100%;
-            padding: 0.5rem;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-        }
-
-        .user-nav {
-            display: flex;
-            gap: 1rem;
-        }
-
-        .nav-bar {
-            display: flex;
-            gap: 2rem;
-            padding: 0.5rem 0;
-        }
-
-        .nav-bar a, .user-nav a {
-            text-decoration: none;
-            color: #333;
-        }
-
-        /* Main content styles */
-        main {
-            flex-grow: 1;
-            padding: 2rem;
-            background-color: #f9f9f9;
-        }
-
-        .hero {
-            text-align: center;
-            padding: 3rem 0;
-            background: linear-gradient(to right, #B4D7D2, #FFD5C6);
-            margin: -2rem -2rem 2rem -2rem;
-            color: white;
-        }
-
-        .features {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 2rem;
-            margin: 2rem 0;
-        }
-
-        .feature-card {
-            background: white;
-            padding: 2rem;
-            border-radius: 8px;
-            text-align: center;
-        }
-
-        /* Footer styles */
-        footer {
-            background: #333;
-            color: white;
-            padding: 2rem;
-            margin-top: auto;
-        }
-
-        .footer-content {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .social-icons {
-            display: flex;
-            gap: 1rem;
-        }
-
-        .social-icons a {
-            color: white;
-            text-decoration: none;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <div class="header-top">
-            <a href="index.html">
-                <img src="logo.png" alt="Interflow" class="logo">
-            </a>
+            <nav class="nav-bar">
+                <a href="items.html">Browse</a>
+                <a href="new.html">Sell</a>
+            </nav>
             <div class="search-bar">
                 <input type="search" placeholder="Search for creative works...">
             </div>
@@ -135,14 +21,15 @@
                 <a href="#">Sign Up</a>
             </nav>
         </div>
-        <nav class="nav-bar">
-            <a href="items.html">Browse</a>
-            <a href="new.html">Sell</a>
-        </nav>
     </header>
 
+    <section class="hero">
+        <a href="index.html">
+            <img src="interflow-logo.svg" alt="Interflow" class="logo">
+        </a>
+    </section>
     <main>
-        <section class="hero">
+        <section class="readMore">
             <h1>Where Creativity Connects</h1>
             <p>Discover unique artworks and connect with creators worldwide</p>
         </section>
@@ -166,10 +53,8 @@
     <footer>
         <div class="footer-content">
             <p>&copy; 2024 Interflow. All rights reserved.</p>
-            <div class="social-icons">
-                <a href="#">Facebook</a>
-                <a href="#">Twitter</a>
-                <a href="#">Instagram</a>
+            <div class="id">
+                <p>Cameron Warren</p>
             </div>
         </div>
     </footer>
