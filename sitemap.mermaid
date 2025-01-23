@@ -1,0 +1,26 @@
+graph TD
+    Home[Home Page] --> Browse[Browse Products]
+    Home --> Cart[Shopping Cart]
+    Home --> Account[Account]
+    
+    Browse --> Category[Category Pages]
+    Browse --> Search[Search Results]
+    Browse --> Filter[Filter Results]
+    
+    Category --> Product[Product Detail]
+    Search --> Product
+    
+    Product --> Cart
+    
+    Cart --> Checkout[Checkout]
+    Checkout --> Payment[Payment]
+    Checkout --> Confirmation[Order Confirmation]
+    
+    Account --> Orders[Order History]
+    Account --> Settings[Account Settings]
+    Account --> Wishlist[Wishlist]
+    
+    subgraph User Flow
+        Register[Register] --> Login[Login]
+        Login --> Account
+    end
