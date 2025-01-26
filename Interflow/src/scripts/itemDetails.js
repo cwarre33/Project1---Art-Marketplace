@@ -76,7 +76,6 @@ function loadItemDetails() {
         document.getElementById('item-offers').textContent = item.offers;
         document.getElementById('item-description').textContent = item.description;
 
-        // Optional: Add artist name to the page if you want
         const artistElement = document.getElementById('item-artist');
         if (artistElement) {
             artistElement.textContent = item.artist;
