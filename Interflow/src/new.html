@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interflow - List New Item</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <nav class="nav-bar">
+                <a href="items.html">Browse</a>
+                <a href="index.html">Home</a>
+            </nav>
+            <div class="search-bar">
+                <input type="search" placeholder="Search for creative works...">
+            </div>
+            <nav class="user-nav">
+                <a href="#">Login</a>
+                <a href="#">Sign Up</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="readMore">
+            <h1>List Your Artwork</h1>
+            <p>Share your creative works with our global community</p>
+        </section>
+
+        <div class="form-container">
+            <form action="#" method="POST" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="title">Title</label>
+                    <input type="text" id="title" name="title" class="form-control" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="condition">Condition</label>
+                    <select id="condition" name="condition" class="form-control" required>
+                        <option value="">Select condition</option>
+                        <option value="new">New / Original Artwork</option>
+                        <option value="mint">Mint Condition</option>
+                        <option value="excellent">Excellent</option>
+                        <option value="good">Good</option>
+                        <option value="fair">Fair</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="seller">Seller</label>
+                    <input type="text" id="seller" name="seller" class="form-control" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="price">Price ($)</label>
+                    <input type="number" id="price" name="price" class="form-control" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="details">Details</label>
+                    <textarea id="details" name="details" class="form-control" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="image">Image</label>
+                    <input type="file" id="image" name="image" accept="image/*" required>
+                </div>
+
+                <div class="button-group">
+                    <button type="submit" class="submit-btn">List Item</button>
+                    <button type="reset" class="reset-btn">Clear Form</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Interflow. All rights reserved.</p>
+            <div class="id">
+                <p>Cameron Warren</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

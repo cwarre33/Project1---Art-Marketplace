@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interflow - Item Details</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/itemDetails.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <nav class="nav-bar">
+                <a href="new.html">Sell</a>
+                <a href="index.html">Home</a>
+            </nav>
+            <div class="search-bar">
+                <input type="search" placeholder="Search for creative works...">
+            </div>
+            <nav class="user-nav">
+                <a href="#">Login</a>
+                <a href="#">Sign Up</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="item-detail-container">
+        <section class="item-detail">
+            <div class="item-image-column">
+                <img id="item-image" src="" alt="Item Image" class="item-main-image">
+            </div>
+            <div class="item-info-column">
+                <h1 id="item-title"></h1>
+                <div class="item-details-grid">
+                    <div class="detail-label">Price:</div>
+                    <div class="detail-value" id="item-price"></div>
+
+                    <div class="detail-label">Condition:</div>
+                    <div class="detail-value" id="item-condition"></div>
+
+                    <div class="detail-label">Seller:</div>
+                    <div class="detail-value" id="item-seller"></div>
+
+                    <div class="detail-label">Offers Received:</div>
+                    <div class="detail-value" id="item-offers"></div>
+
+                    <div class="detail-label">Artist:</div>
+                    <div class="detail-value" id="item-artist"></div>
+                </div>
+
+                <div class="item-description">
+                    <h2>Description</h2>
+                    <p id="item-description"></p>
+                </div>
+
+                <div class="item-actions">
+                    <button class="edit-item-btn">Edit Item</button>
+                    <button class="delete-item-btn">Delete Item</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Interflow. All rights reserved.</p>
+            <div class="id">
+                <p>Cameron Warren</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
