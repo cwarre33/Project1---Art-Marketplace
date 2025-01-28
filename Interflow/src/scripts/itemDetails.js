@@ -32,7 +32,7 @@ const itemDetails = {
     'item4': {
         title: '"The Persistence of Memory"',
         artist: 'Salvador Dali',
-        image: 'images/salvador-dali',
+        image: 'images/salvador-dali.jpg',
         price: '$2999',
         condition: 'Vintage Print',
         seller: 'Surrealist Art Gallery',

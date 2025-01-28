@@ -95,7 +95,6 @@
     }
 
     .nav-logo {
-        padding: none;
         background: none;
     }
 
@@ -122,6 +121,17 @@
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
         border: 1px solid rgba(0, 0, 0, 0.1);
         background-color: #fff; 
+    }
+
+    .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
     }
 
     .readMore {
@@ -166,9 +176,25 @@
         align-items: center;
     }
 
+    /* Social Icons Styles */
     .social-icons {
         display: flex;
-        gap: 1rem;
+        gap: 1.5rem;
+    }
+
+    .social-icons a {
+        color: white;
+        font-size: 1.5rem;
+        transition: transform 0.3s ease;
+        background: none;
+        box-shadow: none;
+        padding: 0;
+    }
+
+    .social-icons a:hover {
+        transform: scale(1.2);
+        background: none;
+        box-shadow: none;
     }
 
     .id p {
@@ -229,7 +255,7 @@
         font-size: 1.2rem;
     }
 
-    .item-footer button {
+    .item-footer .button {
         background-color: #B4D7D2;
         border: none;
         padding: 0.5rem 1rem;
@@ -238,7 +264,7 @@
         transition: background-color 0.3s, transform 0.2s;
     }
 
-    .item-footer button:hover {
+    .item-footer .button:hover {
         background-color: #FFD5C6;
         transform: translateY(-2px);
     }
